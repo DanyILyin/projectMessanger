@@ -1,0 +1,29 @@
+body{
+    margin: 0px;    
+}
+
+.message-container{
+    margin: 0;    
+    display: flex;
+    justify-content: center;
+}
+
+.center-content{
+    background-color: rgb(145, 145, 145);
+    width: 1200px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.message-content-block{
+    height: 100vh;
+    width:1200px;
+    justify-content: end;
+}
+
+
+.input-message{
+    display: flex;
+
+}
