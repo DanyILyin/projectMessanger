@@ -1,46 +1,24 @@
-@import "user-name.css";
-@import "message-container.css";
-@import "left-panel.css";
-
-body{
-    margin: 0px;    
-    font-family: Arial, sans-serif;
+.message-container {
+    width: 60%; /* Width of the central panel */
+    background-color: #8D91C7; /* Background color */
+  
 }
 
-h3{
-    margin: 0px;
+.message-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Задаем высоту родительского контейнера */
 }
 
-h1{
-    margin: 0px;
-    font-weight: bold;
+.one-message{
+    margin: 5px;
+    padding: 10px;
+    background-color: #F2F7F2;
+    height: max-content;
+    width: max-content;
+    border-radius: 10px; /* Закругление краев */
+    border: 2px solid #000; /* Обводка черного цвета толщиной 2 пикселя */
 }
-
-em {
-    font-style: italic;
-}
-
-p {
-    margin: 0px;
-    font-size: 16px;
-}
-
-.messanger {
-    display: flex; /* Используем Flexbox */
-    justify-content: space-between; /* Распределяем пространство между элементами */
-    height: 100vh; /* Задаем высоту на весь экран */
-}
-
-
-
-.right-panel {
-    width: 20%; /* Ширина правой панели */
-    background-color: #443850; /* Цвет фона для наглядности */
-    padding: 5px; /* Отступы */
-}
-
-
-
 
 .one-message {
     flex-grow: 1; /* Занимает оставшееся пространство между user-name-container и input-container */
@@ -64,4 +42,3 @@ p {
     width: 50%; /* Занимает 50% ширины экрана */
     background-color: white; /* Фон для лучшей видимости */
 }
-
