@@ -17,6 +17,7 @@ em {
 }
 
 p {
+    margin: 0px;
     font-size: 16px;
 }
 
@@ -49,32 +50,44 @@ p {
 .message-container {
     width: 60%; /* Width of the central panel */
     background-color: #8D91C7; /* Background color */
-    position: relative; /* Relative positioning for child elements */
-    height: 100vh; /* Set a height for the container */
+  
 }
 
-.user-name{
-    height: 60px;
-    background-color: #443850; 
-    width: 100%;
-    position: relative;
+.message-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Задаем высоту родительского контейнера */
 }
 
-.input-message{
-    width: calc(100% - 20px); /* Full width minus padding */
+.user-name-container {
     height: 60px;
+    background-color: #443850;
+    bottom: -1;
+
+    transform: translateX(1%); /* Сдвигаем на половину ширины элемента влево для центрирования */
+    width: 97%; /* Занимает 50% ширины экрана */
+}
+
+.one-message {
+    flex-grow: 1; /* Занимает оставшееся пространство между user-name-container и input-container */
+}
+
+.input-message {
+    font-size: 20px; /* Укажите желаемый размер шрифта */
+    height: 40px;
+    background-color: #8D91C7;
+    margin: 5px;
+    border-radius: 10px; /* Укажите радиус закругления */
+    background-color: #8D91C7;
+    margin: 5px;
     border-radius: 10px; /* Закругление краев */
     border: 2px solid #000; /* Обводка черного цвета толщиной 2 пикселя */
-    background-color: #BBBE64; /* Background color */
-    position: absolute; /* Keep absolute positioning */
-    bottom: 10px; /* Position it 10px from the bottom */
-    left: 10px; /* Position it 10px from the left */
-    padding: 5px; /* Add padding for better appearance */
-    box-sizing: border-box; /* Include padding in width calculation */
-    font-size: 20px;
+
+    bottom: 0; /* Устанавливаем его внизу */
+    position: fixed; /* Фиксируем контейнер внизу экрана */
+    left: 50%; /* Сдвигаем влево на 50% от ширины экрана */
+    transform: translateX(-50%); /* Сдвигаем на половину ширины элемента влево для центрирования */
+    width: 50%; /* Занимает 50% ширины экрана */
+    background-color: white; /* Фон для лучшей видимости */
 }
 
-/* fsdfsdf */
-/* fsdfsdf */
-/* fsdfsdf */
-/* fsdfsdf */
