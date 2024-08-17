@@ -62,10 +62,9 @@ p {
 .user-name-container {
     height: 60px;
     background-color: #443850;
-    bottom: -1;
 
-    transform: translateX(1%); /* Сдвигаем на половину ширины элемента влево для центрирования */
-    width: 97%; /* Занимает 50% ширины экрана */
+    margin-right: 1%;
+    margin-left: 1%;
 }
 
 .one-message {
