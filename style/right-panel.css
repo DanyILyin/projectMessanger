@@ -1,0 +1,26 @@
+
+.right-panel {
+    width: 20%; /* Ширина правой панели */
+    background-color: #443850; /* Цвет фона для наглядности */
+    padding: 5px; /* Отступы */
+}
+
+.right-panel-icon-user{
+    margin-left: 20%;
+    width: 60%;
+    border-radius: 50%;
+    border: 1px solid #8D91C7; /* Обводка черного цвета толщиной 2 пикселя */
+}
+
+.right-panel h2{
+    margin: 20px;
+    color: #F2F7F2;
+
+}
+
+.right-panel h3{
+    margin: 20px;
+    color: #F2F7F2;
+
+}
+

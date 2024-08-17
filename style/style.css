@@ -1,6 +1,7 @@
 @import "user-name.css";
 @import "message-container.css";
 @import "left-panel.css";
+@import "right-panel.css";
 
 body{
     margin: 0px;    
@@ -33,35 +34,9 @@ p {
 
 
 
-.right-panel {
-    width: 20%; /* Ширина правой панели */
-    background-color: #443850; /* Цвет фона для наглядности */
-    padding: 5px; /* Отступы */
-}
 
 
 
 
-.one-message {
-    flex-grow: 1; /* Занимает оставшееся пространство между user-name-container и input-container */
-}
 
-.input-message {
-    font-size: 20px; /* Укажите желаемый размер шрифта */
-    height: 40px;
-    background-color: #8D91C7;
-    margin: 5px;
-    border-radius: 10px; /* Укажите радиус закругления */
-    background-color: #8D91C7;
-    margin: 5px;
-    border-radius: 10px; /* Закругление краев */
-    border: 2px solid #000; /* Обводка черного цвета толщиной 2 пикселя */
-
-    bottom: 0; /* Устанавливаем его внизу */
-    position: fixed; /* Фиксируем контейнер внизу экрана */
-    left: 50%; /* Сдвигаем влево на 50% от ширины экрана */
-    transform: translateX(-50%); /* Сдвигаем на половину ширины элемента влево для центрирования */
-    width: 50%; /* Занимает 50% ширины экрана */
-    background-color: white; /* Фон для лучшей видимости */
-}
 
