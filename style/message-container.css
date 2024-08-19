@@ -1,0 +1,14 @@
+.message-container {
+    width: 60%; /* Width of the central panel */
+    background-color: #8D91C7; /* Background color */
+  
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Задаем высоту родительского контейнера */
+}
+
+
+

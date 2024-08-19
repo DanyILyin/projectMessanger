@@ -1,0 +1,24 @@
+.user-name-container {
+    background-color: #443850;
+    margin-right: 1px;;
+    margin-left: 1px;
+}
+
+.user-name{
+    display: flex;
+    height: 85px;
+    align-items: center;
+}
+
+.user-name h3{
+    margin-left: 15px;
+    color: #F2F7F2;
+}
+
+.icon-user{
+    margin: 10px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    width: 60px;
+    height: 60px;
+}

@@ -1,0 +1,19 @@
+.left-panel {
+    width: 20%; /* Ширина левой панели */
+    background-color: #443850;
+    padding: 5px; /* Отступы */
+}
+
+.chat-short{
+    display: flex;
+    align-items: center;
+    background-color: #F2F7F2;
+    height: 80px;
+    margin: 5px;
+    border-radius: 10px; /* Закругление краев */
+    border: 2px solid #000; /* Обводка черного цвета толщиной 2 пикселя */
+}
+
+.short-chat-info{
+    height: max-content;
+}
