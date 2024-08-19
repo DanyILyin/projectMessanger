@@ -38,27 +38,8 @@ p {
 
 
 
-<<<<<<< HEAD
-.message-container {
-    position: relative; /* Родитель должен иметь относительное позиционирование */
-    width: 60%; /* Width of the central panel */
-    background-color: #8D91C7; /* Background color */
-    position: relative; /* Relative positioning for child elements */
-    height: 100vh; /* Set a height for the container */
-}
 
-.user-name{
-    height: 60px;
-    background-color: #443850; 
-    width: 99%;
-    position: absolute;
 
-    left: 50%;
-    transform: translate(-50%); /* Центрирование по горизонтали и вертикали */
-}
-=======
-
->>>>>>> test
 
 
 
