@@ -1,13 +1,14 @@
 @import "user-name.css";
 @import "message-container.css";
 @import "../components/leftPanelComponent/left-panel.css";
-@import "right-panel.css";
+@import "../components/rigthPanelComponent/rightPanel.css";
 @import "../components/oneMessageComponent/oneMessge.css";
 @import "../components/userNameComponent/userName.css";
+@import "../components/inpuMessageComponent/inputMessage.css";
 
 body{
     margin: 0px;    
-    font-family: Arial, sans-serif;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 h3{
@@ -29,7 +30,7 @@ p {
 }
 
 .messanger {
-    display: flex; /* Используем Flexbox */
+    display: flex; 
     justify-content: space-between; /* Распределяем пространство между элементами */
     height: 100vh; /* Задаем высоту на весь экран */
 }
