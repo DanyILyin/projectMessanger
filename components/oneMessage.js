@@ -5,3 +5,5 @@ export function oneMessage() {
     const targetElement = document.querySelector('.message-content-block');
     targetElement.insertAdjacentElement('beforeEnd', oneMessage);
 }
+
+//fsdfsd
