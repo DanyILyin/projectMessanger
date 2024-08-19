@@ -1,7 +1,9 @@
 @import "user-name.css";
 @import "message-container.css";
-@import "left-panel.css";
+@import "../components/leftPanelComponent/left-panel.css";
 @import "right-panel.css";
+@import "../components/oneMessageComponent/oneMessge.css";
+@import "../components/userNameComponent/userName.css";
 
 body{
     margin: 0px;    

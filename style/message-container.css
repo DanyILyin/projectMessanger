@@ -10,20 +10,7 @@
     height: 100vh; /* Задаем высоту родительского контейнера */
 }
 
-.one-message{
-    margin: 5px;
-    padding: 10px;
-    background-color: #F2F7F2;
-    height: max-content;
-    width: max-content;
-    max-width: 70%;
-    border-radius: 10px; /* Закругление краев */
-    border: 2px solid #000; /* Обводка черного цвета толщиной 2 пикселя */
-}
 
-.one-message {
-    flex-grow: 1; /* Занимает оставшееся пространство между user-name-container и input-container */
-}
 
 .input-message {
     font-size: 20px; /* Укажите желаемый размер шрифта */
