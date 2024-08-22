@@ -1,5 +1,5 @@
-@import "user-name.css";
 @import "message-container.css";
+@import "../components/userNameComponent/userName.css";
 @import "../components/leftPanelComponent/left-panel.css";
 @import "../components/rigthPanelComponent/rightPanel.css";
 @import "../components/oneMessageComponent/oneMessge.css";

@@ -12,3 +12,19 @@
 .one-message {
     flex-grow: 1; /* Занимает оставшееся пространство между user-name-container и input-container */
 }
+
+.one-message-owner{
+    float: right;
+    margin: 5px;
+    padding: 10px;
+    background-color: #F2F7F2;
+    height: max-content;
+    width: 100%;
+    max-width: 70%;
+    border-radius: 10px; /* Закругление краев */
+    border: 2px solid #000; /* Обводка черного цвета толщиной 2 пикселя */
+}
+
+.one-message-owner {
+    flex-grow: 1; /* Занимает оставшееся пространство между user-name-container и input-container */
+}

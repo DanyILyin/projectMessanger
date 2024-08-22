@@ -1,0 +1,46 @@
+{
+    "messages": [
+        {
+            "idChat": 1,
+            "idMessage" : 1,
+            "messageOwnerId": 1,
+            "text": "Привет! Как дела?"
+        },
+        {
+            "idChat": 1,
+            "idMessage" : 2,
+            "messageOwnerId": 0,
+            "text": "Привет! Как дела?"
+        },
+        {
+            "idChat": 1,
+            "idMessage" : 3,
+            "messageOwnerId": 1,
+            "text": "Привет! Как дела?"
+        },
+        {
+            "idChat": 1,
+            "idMessage" : 4,
+            "messageOwnerId": 1,
+            "text": "Привет! Как дела?"
+        },
+        {
+            "idChat": 1,
+            "idMessage" : 5,
+            "messageOwnerId": 1,
+            "text": "Привет! Как дела?"
+        },
+        {
+            "idChat": 1,
+            "idMessage" : 6,
+            "messageOwnerId": 1,
+            "text": "Привет! Как дела?"
+        },
+        {
+            "idChat": 1,
+            "idMessage" : 7,
+            "messageOwnerId": 0,
+            "text": "Привет! Хорошо"
+        }
+    ]
+}
