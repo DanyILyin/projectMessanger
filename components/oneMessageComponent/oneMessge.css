@@ -6,7 +6,7 @@
     width: max-content;
     max-width: 70%;
     border-radius: 10px; /* Закругление краев */
-    border: 2px solid #000; /* Обводка черного цвета толщиной 2 пикселя */
+
 }
 
 .one-message {
@@ -14,15 +14,16 @@
 }
 
 .one-message-owner{
-    float: right;
+    align-self: flex-end;
     margin: 5px;
+    padding-left: 50%;
     padding: 10px;
-    background-color: #F2F7F2;
+    background-color: #86598d;
     height: max-content;
-    width: 100%;
+    width: max-content;
     max-width: 70%;
     border-radius: 10px; /* Закругление краев */
-    border: 2px solid #000; /* Обводка черного цвета толщиной 2 пикселя */
+
 }
 
 .one-message-owner {

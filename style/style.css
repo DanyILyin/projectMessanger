@@ -5,6 +5,7 @@
 @import "../components/oneMessageComponent/oneMessge.css";
 @import "../components/userNameComponent/userName.css";
 @import "../components/inpuMessageComponent/inputMessage.css";
+@import "../components/messageListComponent/messageList.css";
 
 body{
     margin: 0px;    

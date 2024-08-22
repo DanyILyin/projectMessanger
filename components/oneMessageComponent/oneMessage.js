@@ -15,6 +15,8 @@ export async function oneMessage(idChat, IdMessage, IdOwnerMessage) {
                 oneMessage.className = 'one-message-owner';
             }
             oneMessage.innerHTML = message.text;
+
+            
         } else {
             console.error('Сообщение не найдено');
         }

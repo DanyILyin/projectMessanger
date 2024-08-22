@@ -5,7 +5,7 @@ export async function messageList() {
     messageList.className = 'message-list';
 
     // Предположим, что вы хотите вызвать oneMessage 5 раз с разными параметрами
-    for (let i = 0; i < 5; i++) {
+    for (let i = 1; i < 6; i++) {
         const messageElement = await oneMessage(1, i, 0); // Пример параметров
         messageList.appendChild(messageElement); // Добавляем элемент в messageList
     }

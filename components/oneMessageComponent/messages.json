@@ -10,37 +10,26 @@
             "idChat": 1,
             "idMessage" : 2,
             "messageOwnerId": 0,
-            "text": "Привет! Как дела?"
+            "text": "Привет! Хорошо"
         },
         {
             "idChat": 1,
             "idMessage" : 3,
             "messageOwnerId": 1,
-            "text": "Привет! Как дела?"
+            "text": "Просто проверка текста!"
         },
         {
             "idChat": 1,
             "idMessage" : 4,
-            "messageOwnerId": 1,
-            "text": "Привет! Как дела?"
+            "messageOwnerId": 0,
+            "text": "Все отлично работает!"
         },
         {
             "idChat": 1,
             "idMessage" : 5,
             "messageOwnerId": 1,
-            "text": "Привет! Как дела?"
-        },
-        {
-            "idChat": 1,
-            "idMessage" : 6,
-            "messageOwnerId": 1,
-            "text": "Привет! Как дела?"
-        },
-        {
-            "idChat": 1,
-            "idMessage" : 7,
-            "messageOwnerId": 0,
-            "text": "Привет! Хорошо"
+            "text": "Проверяю как отображаются большие сообщения: Почему я ношу красные очки? Потому что в них не видно ошибок в коде"
+            
         }
     ]
 }
